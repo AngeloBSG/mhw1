@@ -1,0 +1,246 @@
+.kaisei-decol-regular {
+    font-family: "Kaisei Decol", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav{
+    background-color: white;
+}
+
+#Logo{
+    margin-top: -20px;
+}
+
+#Notizie{
+    margin-left:90%;
+    width: 100px;
+}
+
+#Riga{
+    border-bottom: 2px solid lightslategray;
+    margin-top: 20px;
+}
+
+header{
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+#Top{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 23%;
+}
+
+#Account{
+    display: inline;
+    margin-left: 17.5%;
+}
+
+.NoDecoration{
+    text-decoration: none;
+}
+
+#Link{
+    margin-left: 0px;
+    margin-right: 35px;
+    font-family: 'kaisei-decol-regular';
+}
+
+span{
+    font-size: 20px;
+    color: black;
+}
+
+#MenuSpace{
+    margin-right: 95%;
+    padding-right: -95%;
+}
+
+#Menu{
+    display: none; 
+}
+
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+}
+
+section{
+    background-color: black;
+    height: 500px;
+}
+
+#Container{
+    background-color: orangered;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+
+#SpazioIMG1{
+    background-color: cyan;
+    height: 100%;
+    width: 50%;
+}
+
+#IMG1{
+    height: 100%;
+    width: 100%;
+}
+
+#Text1A{
+    color: black;
+    margin-top: -25%;
+    margin-left: 5%;
+}
+
+#Text1B{
+    color: black;
+    margin-bottom: 0%;
+    margin-left: 5%;
+}
+
+#Container2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 50%;
+}
+
+#SpazioIMG2{
+    background-color: burlywood;
+    height: 50%;
+    width: 100%;
+}
+
+#IMG2{
+    height: 100%;
+    width: 100%;
+}
+
+#Text2{
+    color: black;
+    margin-top: -10%;
+    margin-left: 5%;
+}
+
+#Container3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50%;
+    width: 100%;
+}
+
+#SpazioIMG3{
+    background-color: darkkhaki;
+    height: 100%;
+    width: 50%;
+}
+
+#IMG3{
+    height: 100%;
+    width: 100%;
+}
+
+#Text3{
+    color: black;
+    margin-top: -20%;
+    margin-left: 5%;
+}
+
+#SpazioIMG4{
+    background-color: lawngreen;
+    height: 100%;
+    width: 50%;
+}
+
+#IMG4{
+    height: 100%;
+    width: 100%;
+}
+
+#Text4{
+    color: white;
+    margin-top: -20%;
+    margin-left: 5%;
+}
+
+
+
+@media (max-width: 770px){
+    
+    #Notizie{
+        display: none;
+    }
+
+    #Logo{
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    #Riga{
+        margin-bottom: 10px;
+    }
+
+    #Top{
+        display: none;
+    }
+
+    #MenuSpace{
+        display: inline-block;
+        margin-right: 0%;
+    }
+
+    #Menu{
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: purple;
+        margin: 5px 0;
+        margin-top: 0px;
+    }
+
+    #Account{
+        margin-left: 68%;
+    }
+
+    section{
+        background-color: black;
+        width: 100%;
+    }
+
+    #Container{
+        display: block;
+    }
+
+    #SpazioIMG1{
+        width: 100%;
+    }
+
+    #Container2{
+        display: block;
+        width: 100%;
+        height: 200%
+    }
+
+    #SpazioIMG2{
+        width: 100%;
+    }
+
+    #SpazioIMG3{
+        width: 50%;
+        height: 50%;
+    }
+
+    #SpazioIMG4{
+        width: 50%;
+        height: 50%;
+    }
+}
